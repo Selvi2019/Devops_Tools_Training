@@ -102,6 +102,7 @@ wget -O /etc/yum.repos.d/jenkins.repo http://pkg.jenkins-ci.org/redhat/jenkins.r
 ```
 rpm --import https://pkg.jenkins.io/redhat/jenkins.io.key
 ```
+Note: If you get GPG Check Error msg, please try to update the keys "sudo rpm --import https://pkg.jenkins.io/redhat/jenkins.io-2023.key"
 *******************************************************************************************************************
 - Step 5: Install Jenkins
 ```
